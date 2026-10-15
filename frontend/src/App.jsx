@@ -16,12 +16,12 @@ export default function App() {
       .catch(() => setStatus("API не запущен"));
   }, []);
   return <div className="layout">
-    <aside><h1>ZEVS</h1><p>Hotel CRM</p><nav>Обзор проекта</nav><nav>Номера — планируется</nav><nav>Гости — планируется</nav><nav>Брони — планируется</nav></aside>
+    <aside><h1>ZEVS</h1><p>Hotel CRM</p><nav>Обзор</nav><nav>Номера</nav><nav>Гости</nav><nav>Бронирования</nav></aside>
     <main>
-      <header><div><small>УЧЕБНЫЙ ПРОЕКТ</small><h2>Управление гостиницей</h2></div><span>{status}</span></header>
-      <section className="hero"><h3>CRM для небольшого отеля</h3><p>Начальный интерфейс: бизнес-функции находятся в разработке.</p></section>
-      <div className="cards">{modules.map(([title, description]) => <article key={title}><h3>{title}</h3><p>{description}</p><em>Запланировано</em></article>)}</div>
-      <footer>Документация и план работ — в корне репозитория GitHub.</footer>
+      <header><div><small>ZEVS · HOTEL CRM</small><h2>Управление гостиницей</h2></div><span>{status}</span></header>
+      <section className="hero"><h3>CRM для небольшого отеля</h3><p>Управление номерным фондом, гостями и бронированиями.</p></section>
+      <div className="cards">{modules.map(([title, description]) => <article key={title}><h3>{title}</h3><p>{description}</p><em>Раздел</em></article>)}</div>
+      
     </main>
   </div>;
 }
