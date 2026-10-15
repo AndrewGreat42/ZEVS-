@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: zevs-hotelcrm
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5433/hotelcrm}
+    username: ${DB_USER:hotelcrm}
+    password: ${DB_PASSWORD:hotelcrm_dev}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true

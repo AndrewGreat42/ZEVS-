@@ -1,0 +1,18 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-hotelcrm}
+      POSTGRES_USER: ${POSTGRES_USER:-hotelcrm}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-hotelcrm_dev}
+    ports:
+      - "${POSTGRES_PORT:-5433}:5432"
+    volumes:
+      - hotelcrm_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-hotelcrm} -d ${POSTGRES_DB:-hotelcrm}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+volumes:
+  hotelcrm_data:
