@@ -6,25 +6,25 @@
 
 ## Документация
 
-- [Функциональные требования к системе](requirements.md)
-- [Бизнес-правила](business-rules.md)
-- [Архитектура программного решения](architecture.md)
-- [База данных и ER-диаграмма](database.md)
-- [Спецификация REST API](api.md)
-- [План клиентской части](frontend.md)
+- [Функциональные требования к системе](docs/requirements/requirements.md)
+- [Бизнес-правила](docs/requirements/business-rules.md)
+- [Архитектура программного решения](docs/design/architecture.md)
+- [База данных и ER-диаграмма](docs/design/database.md)
+- [Спецификация REST API](docs/design/api.md)
+- [План клиентской части](docs/design/frontend.md)
 
 ## Команда и управление проектом
 
-- [Состав и распределение ролей](roles.md)
-- [Паспорт проекта](passport.md)
-- [План-график](plan.md)
-- [Учебная смета](budget.md)
-- [Реестр задач](backlog.md)
-- [Учёт рабочего времени](time-tracking.md)
+- [Состав и распределение ролей](docs/management/roles.md)
+- [Паспорт проекта](docs/management/passport.md)
+- [План-график](docs/management/plan.md)
+- [Учебная смета](docs/management/budget.md)
+- [Реестр задач](docs/management/backlog.md)
+- [Учёт рабочего времени](docs/management/time-tracking.md)
 - [Журнал фактического времени](time/time-log.csv)
-- [Анализ рисков](risks.md)
-- [Подготовка защиты](defense.md)
-- [Контрольный список готовности](readiness-checklist.md)
+- [Анализ рисков](docs/management/risks.md)
+- [Подготовка защиты](docs/management/defense.md)
+- [Контрольный список готовности](docs/management/readiness-checklist.md)
 - [Правила командной работы](CONTRIBUTING.md)
 
 ## Технологический стек
