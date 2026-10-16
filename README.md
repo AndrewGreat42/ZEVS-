@@ -18,14 +18,7 @@
 - [Состав и распределение ролей](docs/management/roles.md)
 - [Паспорт проекта](docs/management/passport.md)
 - [План-график](docs/management/plan.md)
-- [Учебная смета](docs/management/budget.md)
-- [Реестр задач](docs/management/backlog.md)
-- [Учёт рабочего времени](docs/management/time-tracking.md)
-- [Журнал фактического времени](time/time-log.csv)
-- [Анализ рисков](docs/management/risks.md)
-- [Подготовка защиты](docs/management/defense.md)
-- [Контрольный список готовности](docs/management/readiness-checklist.md)
-- [Правила командной работы](CONTRIBUTING.md)
+
 
 ## Технологический стек
 
